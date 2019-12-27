@@ -1,0 +1,30 @@
+.cards-rotate {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+  top: 70px;
+  height: 500px;
+  z-index: 1;
+  /* transform: rotate(-8deg); */
+}
+.cards-header {
+  display: flex;
+  text-align: center;
+}
+.table , .cards-title{
+  width: 50%;
+}
+.cards-content {
+  background: radial-gradient(ellipse at 4px, #f9fbf8, #ddfbfb);
+  width: 100%;
+  margin: auto;
+  padding: 55px 10px;
+}
+section {
+  display: inline-flex;
+  width: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}

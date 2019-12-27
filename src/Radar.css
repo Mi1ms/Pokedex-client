@@ -1,0 +1,38 @@
+#chart {
+  padding: 0 10px;
+  text-align: center;
+  width: 30%;
+}
+.points {
+  display: flex;
+  position: relative;
+}
+.points h5 {
+  width: 80%;
+}
+.diagram {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 190px solid rgba(4, 4, 4, 0.75);
+}
+#power {
+  background: #db323c;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+#prec {
+  background: #9496e3;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+#pp {
+  background: #94d4e2;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
